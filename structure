@@ -1,0 +1,49 @@
+messaging_app/
+│
+├── public/
+│   ├── css/
+│   │   └── styles.css
+│   ├── js/
+│   │   ├── main.js
+│   │   └── chat.js
+│   ├── images/
+│   │   └── logo.png
+│   ├── index.html
+│   ├── login.html
+│   ├── register.html
+│   └── profile.html
+│
+├── src/
+│   ├── models/
+│   │   ├── User.js
+│   │   ├── Message.js
+│   │   ├── ChatRoom.js
+│   │   └── Media.js
+│   ├── controllers/
+│   │   ├── UserController.js
+│   │   ├── MessageController.js
+│   │   ├── ChatRoomController.js
+│   │   └── MediaController.js
+│   ├── routes/
+│   │   ├── userRoutes.js
+│   │   ├── messageRoutes.js
+│   │   ├── chatRoomRoutes.js
+│   │   └── mediaRoutes.js
+│   ├── services/
+│   │   ├── authService.js
+│   │   ├── chatService.js
+│   │   ├── messageService.js
+│   │   └── mediaService.js
+│   ├── utils/
+│   │   ├── emailValidator.js
+│   │   ├── tokenGenerator.js
+│   │   └── fileUploader.js
+│   └── app.js
+│
+├── config/
+│   ├── dbConfig.js
+│   └── serverConfig.js
+│
+├── .env
+├── server.js
+└── package.json
